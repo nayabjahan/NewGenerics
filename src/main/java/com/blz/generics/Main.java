@@ -2,8 +2,10 @@ package com.blz.generics;
 
 public class Main {
     public static void main(String[] args) {
-        MaxData.maxElement(5,25,30);
-        MaxData.maxFloat(2.1f,5.6f,8.6f);
-        MaxData.maxString("nayab","mohammad","yug");
+        new MaxData(5, 6, 7).maxElement();
+        System.out.println("");
+        new MaxData(5.4f, 6.7f, 7.9f).maxElement();
+        System.out.println("");
+        new MaxData("Ajay", "Abhishek", "Arif").maxElement();
     }
 }
